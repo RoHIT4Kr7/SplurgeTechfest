@@ -1,0 +1,242 @@
+.registerButton {
+  border: none;
+  position: relative;
+  width: 200px;
+  height: 73px;
+  padding: 0;
+  z-index: 2;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='868' width='2500' viewBox='0 0 726 252.17'%3E%3Cpath d='M483.92 0S481.38 24.71 466 40.11c-11.74 11.74-24.09 12.66-40.26 15.07-9.42 1.41-29.7 3.77-34.81-.79-2.37-2.11-3-21-3.22-27.62-.21-6.92-1.36-16.52-2.82-18-.75 3.06-2.49 11.53-3.09 13.61S378.49 34.3 378 36a85.13 85.13 0 0 0-30.09 0c-.46-1.67-3.17-11.48-3.77-13.56s-2.34-10.55-3.09-13.61c-1.45 1.45-2.61 11.05-2.82 18-.21 6.67-.84 25.51-3.22 27.62-5.11 4.56-25.38 2.2-34.8.79-16.16-2.47-28.51-3.39-40.21-15.13C244.57 24.71 242 0 242 0H0s69.52 22.74 97.52 68.59c16.56 27.11 14.14 58.49 9.92 74.73C170 140 221.46 140 273 158.57c69.23 24.93 83.2 76.19 90 93.6 6.77-17.41 20.75-68.67 90-93.6 51.54-18.56 103-18.59 165.56-15.25-4.21-16.24-6.63-47.62 9.93-74.73C656.43 22.74 726 0 726 0z'/%3E%3C/svg%3E") no-repeat 50% 50%;
+  -webkit-mask-size: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  transform: translateY(8px);
+}
+
+.registerButton:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0px 0 0 0 white;
+  transition: all 2s ease;
+}
+
+.registerButton:hover:after {
+  box-shadow: 0px -13px 56px 12px #ffffffa6;
+}
+
+.registerButton span {
+  position: absolute;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 100;
+  left: 50%;
+  top: 39%;
+  letter-spacing: 3px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  transition: all 2s ease;
+}
+
+.registerButton:hover span {
+  color: white;
+}
+
+.registerButton:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: black;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease;
+}
+
+.registerButton:hover:before {
+  width: 100%;
+}
+.rulebutton {
+  margin-top: 5px;
+  border-radius: .25rem;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+  -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  height: 40px;
+  font-size: 0.7rem;
+  line-height: 14px;
+  letter-spacing: 1.2px;
+  transition: .2s .1s;
+  background-image: linear-gradient(90deg,#1c1c1c,#6220fb);
+  border: 0 solid;
+  overflow: hidden;
+}
+
+.rulebutton:hover {
+  cursor: pointer;
+  transition: all .3s ease-in;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+ 
+.singleEvent {
+  width: 100vw;
+  height: 120vh;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  position: relative;
+  font-family: "Michroma", sans-serif;
+
+}
+  .singleEventCard {
+    width: 85vw;
+    height: 40vw;
+    margin-top: 10vh;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+    display: flex;
+    padding: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+  }
+  
+  .col1 {
+    width: 49%;
+    height: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .eventPoster {
+    width: auto;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  .col2 {
+    width: 49%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 16px;
+    color: white;
+  }
+  
+  .eventHeading {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Ethnocentric', sans-serif;
+    margin-bottom: 16px;
+  }
+  .rowcol {
+    display: flex;
+  }
+  
+  .subheading {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .heading,
+  .headingp {
+    font-size: 24px;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom right, #3232ff, #09b9ff);
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
+  }
+  .headingp {
+    background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
+  }
+  
+  .content {
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .singleEventCard {
+      display: flex;
+      flex-direction: column;
+      height: 95vh;
+      padding: 4px;
+    }
+  
+    .col1 {
+      width: 100%;
+      height: auto;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+  
+    .eventPoster {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+  
+    .col2 {
+      width: 100%;
+      padding: 8px 16px 16px 16px;
+
+    }
+  
+    .eventHeading {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+  
+    .subheading {
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4px;
+    }
+  
+    .heading {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  
+    .content {
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+  .soon {
+    color: #ff32ad;
+    font-size: 20px;
+  }

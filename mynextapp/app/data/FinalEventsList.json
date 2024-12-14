@@ -1,0 +1,483 @@
+{
+  "categories": [
+    {
+      "name": "esports",
+      "categorytitle": "esports",
+      "events": [
+        {
+          "id": "1",
+          "title": "Neon Vortex Free Fire",
+          "description": "Free Fire Championship",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/26.png?alt=media&token=72590c7b-3c6b-42cf-a55a-8ad437bee149",
+          "link": "/events/esports/2",
+          "date":"19th September",
+          "time":"10:00AM - 1:00PM , 2:00PM - 5:00PM",
+          "eventmanager1":"Tritan",
+          "eventmanager2":"Sorav",
+          "contact1":"9123888473",
+          "contact2":"7864808307",
+          "registrationfee":"RS.300 PER SQUAD",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/FREE_FIRE_rules%5B1%5D.pdf?alt=media&token=6abb9704-ff7d-4875-b99c-e201d1fdca6c",
+          "prizes": "Rs.20000",
+          "eligibility": "College students  and School students(class 6 to 12)"
+        },
+        {
+          "id": "2",
+          "title": "Neon Vortex BGMI",
+          "description": "Battlegrounds Mobile India Tournament(CLASSIC)",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/25.png?alt=media&token=03ec436a-fa36-4277-890c-f109af8d8f50",
+          "link": "/events/esports/1",
+          "date":"18th September",
+          "time":"10:00AM - 1:00PM , 2:00PM - 5:00PM",
+          "eventmanager1":"Moudood",
+          "eventmanager2":"Smriti ",
+          "contact1":"7890515770",
+          "contact2":"7890078377",
+          "registrationfee":"RS.300 PER SQUAD",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/BGMINEWRULES.pdf?alt=media&token=5056e10a-da6b-430f-a8d0-bbd35be58fef",
+          "prizes": "Rs.20000",
+          "eligibility": "College students  and School students(class 6 to 12)"
+        },
+        {
+          "id": "3",
+          "title": "Neon Vortex eFootball",
+          "description": "eFootball Championship",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/27.png?alt=media&token=ab769a11-5fd5-4883-8c87-166774f6da08",
+          "link": "/events/esports/3",
+          "date":"18th September",
+          "time":"10:00AM - 1:00PM , 2:00PM - 5:00PM",
+          "eventmanager1":"Tritan",
+          "eventmanager2":"Debanshu",
+          "contact1":"9123888473",
+          "contact2":"9875551753",
+          "registrationfee":"RS. 70 PER HEAD",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/EFOOTBALL%20rules.pdf?alt=media&token=14db85b2-8e9e-4615-9dff-0874683463b7",
+          "prizes": "Rs.3000",
+          "eligibility": "College students  and School students(class 6 to 12)"
+        }
+      ]
+    },
+    {
+      "name": "makermania",
+      "categorytitle": "maker mania",
+      "events": [
+        {
+          "id": "1",
+          "title": "Constructopia",
+          "description": "Technical Model Making",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/19.png?alt=media&token=ce935786-bbab-416c-90bc-aa694c64ff81",
+          "link": "/events/makermania/1",
+          "date":"18th September",
+          "time":"2:00PM - 4:00PM",
+          "eventmanager1":"Aditi",
+          "eventmanager2":"Tanaya",
+          "contact1":"6290228217",
+          "contact2":"9007558322",
+          "registrationfee":"RS 50 EACH(GRP OF 3)TOTAL=150",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/MODEL%20MAKING%20TECH%20RULES.pdf?alt=media&token=c2d31a46-8238-491f-94ad-d5c014e6f67b",
+          "prizes": "Rs.2000",
+          "eligibility": "College students  and School students(class 6 to 12)"
+        },
+        {
+          "id": "2",
+          "title": "Miniature Marvels",
+          "description": "Non-Technical Model Making",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/17.png?alt=media&token=ac026afc-5a8e-46cd-af12-71d7b1fb676c",
+          "link": "/events/makermania/2",
+          "date":"17th September",
+          "time":"10:30AM - 12:30PM",
+          "eventmanager1":"Debmalya",
+          "eventmanager2":"Shreyoshi",
+          "contact1":"8597135533",
+          "contact2":"7980263975",
+          "registrationfee":"FREE",
+          "linksingle": "https://docs.google.com/forms/d/e/1FAIpQLScPGRXey49m0WaY3_4YTvv5fqwS15KhLjbGhQABVsNdJfQwAA/viewform?usp=sf_link",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/MODEL%20MAKING%20NON%20TECH%20RULES.pdf?alt=media&token=61cfba9e-9d01-4f12-9d90-34dd4874b3c3",
+          "prizes": "TROPHY AND CERTIFICATES",
+          "eligibility": "College students  and School students(class 6 to 12)"
+        }
+      ]
+    },
+    {
+      "name": "heavenventure",
+      "categorytitle": "heaven venture",
+      "events": [
+        {
+          "id": "1",
+          "title": "Sky Scorpion",
+          "description": "Drone Competition",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/6.png?alt=media&token=c96cf534-944e-4d5c-8161-2df6170d9514",
+          "link": "/events/heavenventure/1",
+          "date":"19th September",
+          "time":"2:00PM - 4:00PM",
+          "eventmanager1":"Sahil",
+          "eventmanager2":"Subhajit",
+          "contact1":"8787094533",
+          "contact2":"6289578539",
+          "registrationfee":"PER TEAM RS 200 MIN 1- MAX 4 PARTICIPANTS",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/Drone%20Challenges%20ROBO.pdf?alt=media&token=d2ec46f2-24fb-4f64-966e-f8151920fe9b",
+          "prizes": "Rs.8000",
+          "eligibility": "College students  and School students(class 11 to 12)"
+        }
+      ]
+    },
+    {
+      "name": "brainbattle",
+      "categorytitle": "brain battle",
+      "events": [
+        {
+          "id": "1",
+          "title": "Knowledge Knockout",
+          "description": "Quiz Competition",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/16.png?alt=media&token=09f0de6e-7222-4e3d-9be8-0f628d7f8014",
+          "link": "/events/brainbattle/1",
+          "date":"18th September",
+          "time":"10:30AM - 12:30PM + 2:00PM - 4:00PM",
+          "eventmanager1":"Sayanti",
+          "eventmanager2":"Sania",
+          "contact1":"8777456589",
+          "contact2":"7980568460",
+          "registrationfee":"FREE (GRP OF 4)",
+          "linksingle": "https://docs.google.com/forms/d/e/1FAIpQLSeBr_YsTPo4zjOorjZ_Cqs0oQgehuCz14Qz5NoKOKON-_LjUQ/viewform?usp=sf_link",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/QUIZ%20CONTEST.pdf?alt=media&token=bfa42dd2-6140-46eb-b54d-362c4d2536a6",
+          "prizes": "MEDALS & CERTIFICATES",
+          "eligibility": "Only School students(class 6 to 12)"
+        },
+        {
+          "id": "2",
+          "title": "Cognitive Exchange",
+          "description": "Debate Competition",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/13.png?alt=media&token=c0deb887-2d05-4a37-b11c-86ef90e7858a",
+          "link": "/events/brainbattle/2",
+          "date":"19th September",
+          "time":"10:30AM - 12:30PM + 2:00PM - 4:00PM",
+          "eventmanager1":"Tritan",
+          "eventmanager2":"Avranil",
+          "contact1":"9123888473",
+          "contact2":"6289578539",
+          "registrationfee":"FREE (GRP OF 4)",
+          "linksingle": "https://docs.google.com/forms/d/e/1FAIpQLSeGwbBkqIcpJKpRd9EYr7ja4UVchTvbJBqh1TGkvZRhE-aOQQ/viewform?usp=sf_link",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/Debate%20rules.pdf?alt=media&token=51fd8e77-9e41-4f7b-9472-33c0586c4611",
+          "prizes": "MEDALS & CERTIFICATES",
+          "eligibility": "College students  and School students(class 8 to 12)"
+        }
+      ]
+    },
+    {
+      "name": "funfusion",
+      "categorytitle": "fun fusion",
+      "events": [
+        {
+          "id": "1",
+          "title": "Sherlock Homies",
+          "description": "Treasure Hunt",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/11.png?alt=media&token=11c8b5c1-47f2-448a-89ec-c9110a0e26a2",
+          "link": "/events/funfusion/1",
+          "date":"17th September, 18th September(FINAL)",
+          "time":"10:30AM - 12:30PM + 2:00PM - 4:30PM",
+          "eventmanager1":"Muntusha",
+          "eventmanager2":"Prity",
+          "contact1":"9123941491",
+          "contact2":"8910464296",
+          "registrationfee":"RS.200(GRP OF 4)",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/TREASURE%20HUNT%20RULES.pdf?alt=media&token=f1c397c3-15aa-44d8-833c-5346fc6f4d8f",
+          "prizes": "Rs.1000",
+          "eligibility": "College students  and School students(class 10 to 12)"
+        },
+        {
+          "id": "2",
+          "title": "Frame Crafters",
+          "description": "One Minute to Fame",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/10.png?alt=media&token=df952bad-e9b3-4668-977e-ca72eac5bdc1",
+          "link": "/events/funfusion/2",
+          "date":"17th September",
+          "time":"2:00PM - 4:30PM",
+          "eventmanager1":"Rimi",
+          "eventmanager2":"Tanaya",
+          "contact1":"7439771390",
+          "contact2":"9007558322",
+          "registrationfee":"FREE",
+          "linksingle": "https://docs.google.com/forms/d/e/1FAIpQLSdKIMhV9vNEcDQYyiHGa4PvJVPRaN2tMi-Y_lSYxHfnPvv0Vg/viewform?usp=sf_link",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/RULES%20FOR%201%20MINUTE%20TO%20FAME%20(1).pdf?alt=media&token=b93ecd4a-a19b-4614-92cd-9d5c339d14bf",
+          "prizes": "MEDALS & CERTIFICATES",
+          "eligibility": "College students  and School students(class 9 to 12)"
+        },
+        {
+          "id": "3",
+          "title": "Paintzen",
+          "description": "Brushless Painting Competition",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/7.png?alt=media&token=70d511d0-ac31-4dd5-b6a4-0de2a1c70a93",
+          "link": "/events/funfusion/3",
+          "date":"17th September",
+          "time":"10:30AM - 12:00PM",
+          "eventmanager1":"Tanushree",
+          "eventmanager2":"Srija",
+          "contact1":"8017306938",
+          "contact2":"9330589925",
+          "registrationfee":"FREE",
+          "linksingle": "https://docs.google.com/forms/d/e/1FAIpQLSemZpk68EZF0xERHBff3q_zN1EQlN5tNDPIPyxJXZKi86ptXA/viewform?usp=sf_link",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/RULES%20FOR%20BRUSHLESS%20PAINTING%20(1).pdf?alt=media&token=9f2a01a9-5db6-4bdd-9776-2922867002ff",
+          "prizes": "MEDAL & CERTIFICATES",
+          "eligibility": "College students  and School students(class 6 to 12)"
+        },
+        {
+          "id": "4",
+          "title": "Elegance Carnival",
+          "description": "Fashion Show",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/12.png?alt=media&token=4a95acb0-8449-4e18-aada-e40826b677fd",
+          "link": "/events/funfusion/4",
+          "date":"19th September and 20th September",
+          "time":"6:00PM - 7:30PM",
+          "eventmanager1":"Subha",
+          "eventmanager2":"Trisha",
+          "contact1":"9073633028",
+          "contact2":"9674521574",
+          "registrationfee":"RS 50 EACH PERSON FOR SCHOOL, RS 100 EACH PERSON FOR COLLEGE",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/THEME%20FOR%20FASHION%20SHOW.pdf?alt=media&token=1729d759-6a99-4bd4-b926-0f556e749118",
+          "prizes": "5K FOR SCHOOL, 10K FOR COLLEGE WITH TROPHY AND CERTIFICATES",
+          "eligibility": "College students  and School students(class 10 to 12)"
+        },{
+          "id": "5",
+          "title": "Ball Blitz",
+          "description": "Passing the ball",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/9.png?alt=media&token=af82409b-b2ae-4236-904d-fa7d8fe67af1",
+          "link": "/events/facultytimes/1",
+          "date":"20th September",
+          "time":"10:30AM - 12:30PM",
+          "eventmanager1":"Anagh",
+          "eventmanager2":"Sreya",
+          "contact1":"8100525293",
+          "contact2":"6291771411",
+          "registrationfee":"N/A",
+          "linksingle": "",
+          "ruleLink": "",
+          "prizes": "",
+          "eligibility": "**ONLY FOR TEACHERS"
+        }
+      ]
+    },
+    {
+      "name": "robusta",
+      "categorytitle": "robusta",
+      "events": [
+        {
+          "id": "1",
+          "title": "Megabots",
+          "description": "Robo Car Fighting",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/robofight.png?alt=media&token=374272d1-5ebf-4c31-adfb-ac6df24c02ee",
+          "link": "/events/robusta/1",
+          "date":"18th September",
+          "time":"2:00PM - 4:00PM",
+          "eventmanager1":"Bibek",
+          "eventmanager2":"Debmalya",
+          "contact1":"9836797556",
+          "contact2":"8597135533",
+          "registrationfee":"RS 400(GRP OF 4)",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/Robo%20car%20fight%20ROBO.pdf?alt=media&token=6f35463a-f090-4c4e-8c57-d3b37710529c",
+          "prizes": "Rs.15000",
+          "eligibility": "College students  and School students(class 9 to 12)"
+        },
+        {
+          "id": "2",
+          "title": "Turbo Rush",
+          "description": "Robo Car Racing",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/robocarnew1.png?alt=media&token=535cbd40-068c-4860-98a3-e332c2ec7b6e",
+          "link": "/events/robusta/2",
+          "date":"18th September",
+          "time":"10:30AM - 12:30PM",
+          "eventmanager1":"Sahil",
+          "eventmanager2":"Bibek",
+          "contact1":"8787094533",
+          "contact2":"9836797556",
+          "registrationfee":"RS 300(GRP OF 4)",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/Robo%20car%20race%20ROBO.pdf?alt=media&token=8b1e9175-95d8-49f2-9f02-4824dac671c2",
+          "prizes": "Rs.10000",
+          "eligibility": "College students  and School students(class 9 to 12)"
+        }
+      ]
+    },
+    {
+      "name": "sports",
+      "categorytitle": "sports",
+      "events": [
+        {
+          "id": "1",
+          "title": "Feather Fighters",
+          "description": "Badminton Competition",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/bdmon.jpg?alt=media&token=d6e27698-602a-4d4d-b709-a0bd77cb893c",
+          "link": "/events/sports/1",
+          "date":"17th September , 18th September(Final)",
+          "time":"10:00AM - 5:00PM , 10:30AM - 12:30PM",
+          "eventmanager1":"Shahzer",
+          "eventmanager2":"Deepak",
+          "contact1":"8434140425",
+          "contact2":"6204869494",
+          "registrationfee":"DOUBLE - RS 200 /TEAM , SINGLE - RS 100",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/Badminton%20rules.pdf?alt=media&token=d8298e99-7f53-476a-ba23-367c8edcdbaf",
+          "prizes": "DOUBLE = Rs.3000 , SINGLE = Rs.1500",
+          "eligibility": "College students  and School students(class 8 to 12)"
+        },
+        {
+          "id": "2",
+          "title": "Wave Warriors",
+          "description": "Paddle Boat Competition",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/5.png?alt=media&token=3cebde57-f1c7-4011-994e-30e509966877",
+          "link": "/events/sports/2",
+          "date":"17th September",
+          "time":"10:00AM - 5:00PM",
+          "eventmanager1":"Sahezer",
+          "eventmanager2":"Deepak",
+          "contact1":"8434140425",
+          "contact2":"6204869494",
+          "registrationfee":"RS. 50 PER PERSON(GRP OF 4)TOTAL=200",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/RULES%20FOR%20PADDLE%20BOATS.pdf?alt=media&token=dba9b814-ca67-4d45-bd4a-28a639fa9b91",
+          "prizes": "Rs.2000",
+          "eligibility": "College students  and School students(class 8 to 12)"
+        }
+      ]
+    },
+    {
+      "name": "medicalcamp",
+      "categorytitle": "medical camp",
+      "events": [
+        {
+          "id": "1",
+          "title": "Medical Camp and Eye Check Up Camp",
+          "description": "Avail free health services, expert consultations, and wellness tips.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/newmedical.png?alt=media&token=c0435416-29c6-4d29-b6c6-7ddf6fa5047d",
+          "link": "/events/medicalcamp/1",
+          "date":"18th September",
+          "time":"11:00AM - 1:00PM",
+          "eventmanager1":"Suman",
+          "eventmanager2":"Humayun",
+          "contact1":"9875336626",
+          "contact2":"7602792915",
+          "registrationfee":"FREE FOR ALL(REGISTERED CANDIDATES)",
+          "linksingle": "https://docs.google.com/forms/d/e/1FAIpQLSc0nxD6_1o-NHUGDmxUCC4JP_9PCqqoF1K_JDijKhnqHdPFUg/viewform?usp=sf_link",
+          "ruleLink": "",
+          "prizes": "",
+          "eligibility": ""
+        }
+      ]
+    },
+    {
+      "name": "bandprogram",
+      "categorytitle": "band program",
+      "events": [
+        {
+          "id": "1",
+          "title": "Velvet Concord",
+          "description": "Nikhita Gandhi Live Concert",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/nikita.png?alt=media&token=6c3d04b7-d35a-4440-b8b0-c201345bf8e3",
+          "link": "/events/bandprogram/1",
+          "date":"20th September",
+          "time":"6:00PM - 8:00PM",
+          "eventmanager1":"Sourik",
+          "eventmanager2":"Adarsh",
+          "contact1":"+91 9832376605",
+          "contact2":"+91 8617758589",
+          "registrationfee":"Booking will be open shortly",
+          "linksingle": "",
+          "ruleLink": "",
+          "prizes": "",
+          "eligibility": ""
+        }
+      ]
+    },
+    {
+      "name": "artisticaura",
+      "categorytitle": "artistic aura",
+      "events": [
+        {
+          "id": "1",
+          "title": "Cinemotion",
+          "description": "Videography Competition",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/14.png?alt=media&token=2ace4cb7-3096-4670-9610-afe48af31b5a",
+          "link": "/events/artisticaura/1",
+          "date":"20th September",
+          "time":"10:30AM - 12:30PM",
+          "eventmanager1":"Nafisa",
+          "eventmanager2":"Subhra",
+          "contact1":"9674091318",
+          "contact2":"9143179759",
+          "registrationfee":"RS 50 EACH",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/eventsimages%2FVIDEOGRAPHY%20RULES%201.pdf?alt=media&token=0f33ddd1-9ba7-4d23-b3d6-66c6541befbf",
+          "prizes": "Rs.1000 ",
+          "eligibility": "*Only College students"
+        },
+        {
+          "id": "2",
+          "title": "Click Creation",
+          "description": "Photography Competition",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/15.png?alt=media&token=4563e629-b989-4823-997d-9f8b7891e2a3",
+          "link": "/events/artisticaura/2",
+          "date":"20th September",
+          "time":"10:30AM - 12:30PM",
+          "eventmanager1":"Srija",
+          "eventmanager2":"Rimi",
+          "contact1":"9330589925",
+          "contact2":"7439771390",
+          "registrationfee":"RS 50 EACH",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/PHOTOGRAPHY%20RULES%20THEME.pdf?alt=media&token=f3456021-1495-4c29-88a9-04564ed373c0",
+          "prizes": "Rs.1000",
+          "eligibility": "*Only College students"
+        }
+      ]
+    },
+    {
+      "name": "codefestchallenge",
+      "categorytitle": "codefest challenge",
+      "events": [
+        {
+          "id": "1",
+          "title": "Hack Havock",
+          "description": "Online Hackathon",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/21.png?alt=media&token=fd1c7d5a-8897-43c3-a659-26fb40a94943",
+          "link": "/events/codefestchallenge/1",
+          "date":"18th September",
+          "time":"11:00AM - 12:30PM",
+          "eventmanager1":"Debmalya",
+          "eventmanager2":"Debarshi",
+          "contact1":"8597135533",
+          "contact2":"9907220188",
+          "registrationfee":"Rs.50 per person(grp of 4) TOTAL=200",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/HACKATHON%20RULES%20(1).pdf?alt=media&token=43538da6-2ed4-4f6c-a3d4-5d60080acce7",
+          "prizes": "Rs.10000",
+          "eligibility": "College students and School students(class 11 to 12)"
+        },
+        {
+          "id": "3",
+          "title": "Byte Blitz",
+          "description": "Coding Contest",
+          "image": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/20.png?alt=media&token=600bf575-e276-4b2e-a911-ef054d880b75",
+          "link": "/events/codefestchallenge/2",
+          "date":"18th September",
+          "time":"2:00PM - 4:30PM",
+          "eventmanager1":"Sahil",
+          "eventmanager2":"Trisha",
+          "contact1":"8787094533",
+          "contact2":"9674521574",
+          "registrationfee":"Rs.100 per person",
+          "linksingle": "",
+          "ruleLink": "https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/CODING%20CONTEST%20RULES.pdf?alt=media&token=4d234b38-e765-4dbc-b558-d8e632fa0ca9",
+          "prizes": "Rs.1500",
+          "eligibility": "College students  and School students(class 8 to 12)"
+        }
+      ]
+    }
+  ]
+}

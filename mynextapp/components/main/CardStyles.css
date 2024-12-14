@@ -1,0 +1,159 @@
+body {
+  margin:0;
+  padding: 0;
+  font-family: 'Michroma', sans-serif;
+}
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-top: 110px;
+}
+
+.card {
+  width: 280px;
+  height: 280px;
+  font-family: 'Michroma', sans-serif;
+  background-color: rgb(15, 23, 42);
+  border-radius: 32px;
+  padding: 3px;
+  position: relative;
+  box-shadow: #604b4a30 0px 70px 30px -50px;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  margin-left:32px;
+}
+@media (max-width: 768px) { /* Adjust the min-width value as needed */
+  .card {
+    margin-left:8vw;
+  }
+}
+
+.card .mail {
+  position: absolute;
+  right: 2rem;
+  top: 1.4rem;
+  background: transparent;
+  border: none;
+  z-index: 20;
+}
+
+.card .mail svg {
+  stroke: #2c286d;
+  stroke-width: 3px;
+}
+
+.card .mail svg:hover {
+  stroke: #e8f556;
+}
+
+.card .profile-pic {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 32px;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.card .profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  object-position: center; /* Center the image within the container */
+  transition: all 0.5s ease-in-out;
+}
+
+
+.card .bottom {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background: #2c286d;
+  padding: 1rem;
+  border-radius: 0 0 32px 32px;
+  z-index: 2;
+  box-shadow: rgba(96, 75, 74, 0.1882352941) 0px 5px 5px 0px inset;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.card .bottom .content {
+  height: 100%;
+}
+
+.card .bottom .content .name {
+  display: block;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.card .bottom .content .about-me {
+  display: block;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.card .bottom .bottom-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .bottom .bottom-bottom .social-links-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.card .bottom .bottom-bottom .social-links-container svg {
+  height: 20px;
+  fill: white;
+  filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.1333333333));
+}
+
+.card .bottom .bottom-bottom .social-links-container svg:hover {
+  fill: #f55d56;
+  transform: scale(1.2);
+}
+
+.card .bottom .bottom-bottom .button {
+  background: white;
+  color: #fbb9b6;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  padding: 0.4rem 0.6rem;
+  box-shadow: rgba(165, 132, 130, 0.1333333333) 0px 5px 5px 0px;
+}
+
+.card .bottom .bottom-bottom .button:hover {
+  background: #f55d56;
+  color: white;
+}
+
+.card:hover .bottom {
+  bottom: 0;
+}
+
+.titlefont {
+  color: red;
+  font-size: 45px;
+  padding-top: 10vh;
+  text-align: center;
+  font-family: 'Ethnocentric', sans-serif;
+  position: relative; /* Ensure proper stacking context */
+  z-index: 20;
+}
+
+
+
+@media (min-width: 768px) {
+  .titlefont {
+    font-size: 80px;
+  }
+} 

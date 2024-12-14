@@ -1,0 +1,147 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Aligns the content to the left */
+  align-items: center;
+}
+
+.swiper {
+  width: 260px;
+  height: 350px;
+  margin-left: 0; /* Ensures the swiper starts from the extreme left */
+}
+@media (min-width: 1024px) {
+  .swiper {
+    width: 400px;
+    height: 450px;
+  }
+}
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.swiper-slide:nth-child(1n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel15.jpg?alt=media&token=f7e0b107-8ffd-415d-abbd-1aa04b23f01a');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel14.jpg?alt=media&token=d7f145ca-f96c-4e9f-a50d-1944b3a7bf74');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel8.jpg?alt=media&token=18353221-50e7-475c-a10e-122193ff44ef');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel7.jpg?alt=media&token=3f0eeff5-6d96-4d25-a326-e8009b92a708');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel10.jpg?alt=media&token=f7395102-d39f-4aa8-98cb-545c222e7e61');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(6n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hsohh.jpg?alt=media&token=58866138-9cec-437a-bd44-c635a174b86d');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(7n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel3.jpg?alt=media&token=758ae879-15ba-4836-963e-c884da56d334');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(8n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel4.jpg?alt=media&token=cd8ccc05-4d9a-4f40-9e9e-afa1934a0f01');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(9n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel1.jpg?alt=media&token=cfa006bd-c9cc-487e-856a-1d005a3aa0b6');
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide:nth-child(10n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel12.jpg?alt=media&token=5a8aa81d-8703-4f16-9c28-8f2b7464a5c7');
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide:nth-child(11n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel11.jpg?alt=media&token=e3430de5-20b5-4787-8469-09a61f32f3d5');
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide:nth-child(12n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel6.jpg?alt=media&token=652c1d59-08fa-4cef-b6c4-495cf71d0936');
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide:nth-child(13n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel9.jpg?alt=media&token=c72e9222-af37-4c47-af25-6815edacbfcd');
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide:nth-child(14n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel2.jpg?alt=media&token=c75d7116-84c2-4fcd-87fa-f8205e337ab0');
+  background-size: cover;
+  background-position: center;
+}
+.swiper-slide:nth-child(15n) {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/splurge-techfest.appspot.com/o/hostel16.jpg?alt=media&token=057f76b6-6f49-420b-b1e5-2e5f9636f715');
+  background-size: cover;
+  background-position: center;
+}

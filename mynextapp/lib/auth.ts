@@ -7,7 +7,7 @@ import GoogleProvider from "next-auth/providers/google";
 import GithubProvider from "next-auth/providers/github";
 
 import prisma from "./prisma";
-
+//This is an example of a simple email/password authentication
 export const authConfig: NextAuthOptions = {
   providers: [
     CredentialsProvider({

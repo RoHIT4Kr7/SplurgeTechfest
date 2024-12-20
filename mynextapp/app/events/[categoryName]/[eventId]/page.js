@@ -1,9 +1,11 @@
 import React from "react";
 import { notFound } from 'next/navigation'; 
+import { useSession } from 'next-auth/react';
 import categoriesData from "@/app/data/FinalEventsList.json";
 import Image from "next/image";
 import styles from "@/app/styles/Home.module.css";
 import Navbar2 from "@/components/main/Navbar2";
+
 export async function generateMetadata({ params }) {
   const { categoryName, eventId } = params;
   const category = categoriesData.categories.find(cat => cat.name === categoryName);
@@ -19,7 +21,9 @@ export async function generateMetadata({ params }) {
     title: `${event.title} - Register`
   };
 }
+
 const EventPage = ({ params }) => {
+  const { data: session } = useSession();
   const { categoryName, eventId } = params;
   const category = categoriesData.categories.find(cat => cat.name === categoryName);
   const event = category ? category.events.find(event => event.id === eventId) : null;
@@ -158,14 +162,14 @@ const EventPage = ({ params }) => {
             )}
           </div>
           <div>
-            {linksingle ? (
+            {session ? (
               <a href={linksingle} target="_blank" rel="noopener noreferrer">
                 <button className={styles.registerButton}>
                   <span>REGISTER</span>
                 </button>
               </a>
             ) : (
-              <p className={styles.soon}>{registrationMessage}</p>
+              <p className={styles.soon}>Please login to register</p>
             )}
           </div>
         </div>

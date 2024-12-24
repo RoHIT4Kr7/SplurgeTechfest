@@ -104,7 +104,7 @@ const Navbar2 = () => {
                 </button>
             </div>
           ) : (
-            <Link href="/signup" className="cursor-pointer hover:text-[#FF00FF]">
+            <Link href="/api/auth/signin" className="cursor-pointer hover:text-[#FF00FF]">
               SIGNIN
             </Link>
           )}

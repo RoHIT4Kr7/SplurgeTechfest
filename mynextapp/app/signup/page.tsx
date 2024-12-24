@@ -35,11 +35,12 @@ export default function SignupPage() {
         </div>
       )}
       <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-md">
-        <h1 className="text-2xl font-bold text-gray-800 mb-6 text-center">Signup</h1>
+        <Image src="/Splurge.png" alt="Splurge 2K25 logo" width={100} height={100} className="mx-auto" />
+        <h1 className="Michroma text-2xl font-bold text-gray-800 mb-6 text-center">SIGN IN TO EXPLORE SPLURGE 2K25</h1>
         <div className="mt-6">
           <button
             onClick={() => handleSignIn('google')}
-            className="w-full bg-white border border-gray-300 text-gray-800 p-3 rounded-lg flex items-center justify-center hover:bg-gray-100 transition"
+            className="Michroma w-full bg-white border border-gray-300 text-gray-800 p-3 rounded-lg flex items-center justify-center hover:bg-gray-100 transition"
           >
             <Image src="/google.png" alt="Google logo" width={20} height={20} className="mr-2" />
             Sign in with Google
@@ -48,9 +49,9 @@ export default function SignupPage() {
         <div className="mt-6">
           <button
             onClick={() => handleSignIn('github')}
-            className="w-full bg-white border border-gray-300 text-gray-800 p-3 rounded-lg flex items-center justify-center hover:bg-gray-100 transition"
+            className="Michroma w-full bg-white border border-gray-300 text-gray-800 p-3 rounded-lg flex items-center justify-center hover:bg-gray-100 transition"
           >
-            <Image src="/github.png" alt="GitHub logo" width={20} height={20} className="mr-2" />
+            <Image src="/github.png" alt="GitHub logo" width={20} height={20} className="Michroma mr-2" />
             Sign in with GitHub
           </button>
         </div>

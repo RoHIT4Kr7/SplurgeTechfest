@@ -20,24 +20,23 @@
 
 ## 🔗 Table of Contents
 
-- [📍 Overview](#overview)
-- [👾 Features](#features)
-- [📁 Project Structure](#project-structure)
-- [🚀 Getting Started](#getting-started)
-  - [☑️ Dependencies](#dependencies)
-  - [⚙️ Installation](#installation)
-  - [🤖 Usage](#usage)
-  - [🧪 Testing](#testing)
-- [📌 Project Tasks and Challenges](#project-tasks-and-challenges)
-- [🎗 License](#license)
-- [🙌 Acknowledgments](#acknowledgments)
-
+- [📍 Overview](#-overview)
+- [👾 Features](#-features)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+  - [☑️ Dependencies](#-dependencies)
+  - [⚙️ Installation](#-installation)
+  - [🤖 Usage](#-usage)
+  - [🧪 Testing](#-testing)
+- [📌 Project Tasks and Challenges](#-project-tasks-and-challenges)
+- [🎗 License](#-license)
+- [🙌 Acknowledgments](#-acknowledgments)
 
 ---
 
 ## 📍 Overview
 
-- SPLURGE'24 TechFest is an eagerly anticipated event that brings together students from diverse colleges to showcase their technical prowess and artistic flair. This project is a web application designed to provide information about the event, manage registrations, and display event details.
+- SPLURGE'25 TechFest is an eagerly anticipated event that brings together students from diverse colleges to showcase their technical prowess and artistic flair. This project is a web application designed to provide information about the event, manage registrations, and display event details.
 
 ---
 

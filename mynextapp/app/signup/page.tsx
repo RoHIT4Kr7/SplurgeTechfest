@@ -1,19 +1,22 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { signIn } from 'next-auth/react';
 import Image from 'next/image';
 
 export default function SignupPage() {
   const [loading, setLoading] = useState(false);
+  const searchParams = useSearchParams();
   const router = useRouter();
 
   const handleSignIn = async (provider: string) => {
     try {
       setLoading(true);
-      await signIn(provider, { 
-        redirect: true
+      const callbackUrl = searchParams.get('callbackUrl') || '/'; // Default to home if no callbackUrl
+      await signIn(provider, {
+        callbackUrl, // Redirect user back to the originating route
+        redirect: true,
       });
     } catch (error) {
       console.error('Sign in error:', error);
@@ -21,6 +24,7 @@ export default function SignupPage() {
       setLoading(false);
     }
   };
+
   return (
     <div className="flex items-center justify-center min-h-screen relative z-[400]">
       {loading && (

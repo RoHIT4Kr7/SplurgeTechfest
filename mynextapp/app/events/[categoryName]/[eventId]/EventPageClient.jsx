@@ -161,7 +161,7 @@ const EventPageClient = ({ event, categoryName }) => {
           </div>
           <div>
             {session ? (
-              <a href={linksingle} target="_blank" rel="noopener noreferrer">
+              <a href={linksingle}>
                 <button className={styles.registerButton}>
                   <span>REGISTER</span>
                 </button>

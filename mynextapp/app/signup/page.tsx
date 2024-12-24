@@ -13,7 +13,6 @@ export default function SignupPage() {
     try {
       setLoading(true);
       await signIn(provider, { 
-        callbackUrl: '/default',
         redirect: true
       });
     } catch (error) {

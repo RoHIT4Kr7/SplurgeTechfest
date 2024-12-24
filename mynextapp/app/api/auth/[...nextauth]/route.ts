@@ -1,4 +1,4 @@
-import NextAuth, { AuthOptions } from "next-auth";
+import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import GitHubProvider from "next-auth/providers/github";
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
@@ -6,7 +6,7 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
-export const authOptions: AuthOptions = {
+export const authOptions = {
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID!,
@@ -17,12 +17,6 @@ export const authOptions: AuthOptions = {
       clientSecret: process.env.GITHUB_CLIENT_SECRET!,
     }),
   ],
-  theme: {
-    colorScheme: "light",
-    brandColor: "#000000",
-    logo: "/Splurge.png",
-    buttonText: "#ffffff"
-  },
   adapter: PrismaAdapter(prisma),
   secret: process.env.NEXTAUTH_SECRET,
   session: {
@@ -43,15 +37,14 @@ export const authOptions: AuthOptions = {
         token.picture = profile.picture;
         token.name = profile.name;
       }
+      console.log("JWT Callback - Token:", token);
       return token;
     },
-    async redirect({ url, baseUrl }) {
-      if (url.startsWith("/")) return `${baseUrl}${url}`;
-      else if (new URL(url).origin === baseUrl) return url;
-      return baseUrl;
-    }
   },
 };
 
-const handler = NextAuth(authOptions);
-export { handler as GET, handler as POST };
+// Export HTTP methods explicitly
+import { NextApiRequest, NextApiResponse } from "next";
+
+export const GET = (req: NextApiRequest, res: NextApiResponse) => NextAuth(req, res, authOptions);
+export const POST = (req: NextApiRequest, res: NextApiResponse) => NextAuth(req, res, authOptions);

@@ -26,7 +26,7 @@
 - [🚀 Getting Started](#-getting-started)
   - [☑️ Dependencies](#-dependencies)
   - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#-usage)
+  - [🤖 Run](#-run)
   - [🧪 Testing](#-testing)
 - [📌 Project Tasks and Challenges](#-project-tasks-and-challenges)
 - [🎗 License](#-license)
@@ -137,7 +137,7 @@ Install SplurgeTechfest using one of the following methods:
 
 
 
-### 🤖 Usage
+### 🤖 Run
 Run SplurgeTechfest using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 

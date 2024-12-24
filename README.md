@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>SPLURGE TECHFEST</h1>
 <p align="left">
-	<em><code>❯The TechFest Website is the official online platform for showcasing the annual technology festival. This website serves as a hub for event details, schedules, speaker profiles, registration, and more. Designed with an intuitive and engaging user interface, the platform provides seamless access to all relevant information for attendees, participants, and sponsors.</code></em>
+	<em><code>❯The TechFest Website is not the official online platform for showcasing the annual technology festival. This website serves as a hub for event details, schedules, speaker profiles, registration, and more. Designed with an intuitive and engaging user interface, the platform provides seamless access to all relevant information for attendees, participants, and sponsors.</code></em>
 </p>
 <p align="left">
 	<img src="https://img.shields.io/github/license/RoHIT4Kr7/SplurgeTechfest?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff&cacheSeconds=0" alt="license">
@@ -20,17 +20,18 @@
 
 ## 🔗 Table of Contents
 
-- [📍 Overview](#-overview)
-- [👾 Features](#-features)
-- [📁 Project Structure](#-project-structure)
-- [🚀 Getting Started](#-getting-started)
-  - [☑️ Dependencies](#-dependencies)
-  - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
-  - [🧪 Testing](#🧪-testing)
-- [📌 Project Tasks and Challenges](#-project-roadmap)
-- [🎗 License](#-license)
-- [🙌 Acknowledgments](#-acknowledgments)
+- [📍 Overview](#overview)
+- [👾 Features](#features)
+- [📁 Project Structure](#project-structure)
+- [🚀 Getting Started](#getting-started)
+  - [☑️ Dependencies](#dependencies)
+  - [⚙️ Installation](#installation)
+  - [🤖 Usage](#usage)
+  - [🧪 Testing](#testing)
+- [📌 Project Tasks and Challenges](#project-tasks-and-challenges)
+- [🎗 License](#license)
+- [🙌 Acknowledgments](#acknowledgments)
+
 
 ---
 

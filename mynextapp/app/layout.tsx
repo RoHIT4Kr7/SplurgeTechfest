@@ -3,6 +3,8 @@ import { Metadata } from 'next';
 import './globals.css';
 import ClientLayout from './ClientLayout';
 import StarsCanvas from '@/components/main/StarBackground';
+import SessionProviderWrapper from './SessionProviderWrapper';
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -66,10 +68,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Background animation */}
         <StarsCanvas />
         {/* Client-side redirect logic */}
-          {/* Main Layout */}
+        <SessionProviderWrapper>
           <ClientLayout>
             {children}
           </ClientLayout>
+        </SessionProviderWrapper>
       </body>
     </html>
   );

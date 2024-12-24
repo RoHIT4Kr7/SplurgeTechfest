@@ -1,7 +1,8 @@
 "use client";
+import { useSession, signOut } from "next-auth/react";
 import { Socials } from "@/constants";
 import Image from "next/image";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import "./Navbar.css";
 
@@ -13,12 +14,7 @@ const MenuIcon = () => (
     stroke="currentColor"
     className="w-6 h-6 text-white"
   >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      d="M4 6h16M4 12h16m-7 6h7"
-    />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
   </svg>
 );
 
@@ -30,40 +26,20 @@ const XIcon = () => (
     stroke="currentColor"
     className="w-6 h-6 text-white"
   >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      d="M6 18L18 6M6 6l12 12"
-    />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
   </svg>
 );
 
 const Navbar2 = () => {
+  const { data: session } = useSession(); // Retrieve session data from NextAuth
   const [isOpen, setIsOpen] = useState(false);
-  const [user, setUser] = useState<{ id: number; email: string; name: string } | null>(null);
-
-  useEffect(() => {
-    const storedUser = localStorage.getItem('user');
-    const loginTime = localStorage.getItem('loginTime');
-    const currentTime = Date.now();
-
-    if (storedUser && loginTime && currentTime - parseInt(loginTime) < 24 * 60 * 60 * 1000) {
-      setUser(JSON.parse(storedUser));
-    } else {
-      localStorage.removeItem('user');
-      localStorage.removeItem('loginTime');
-    }
-  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('user');
-    localStorage.removeItem('loginTime');
-    setUser(null);
+    signOut(); // Use NextAuth's signOut function to log out
   };
 
   return (
@@ -107,26 +83,30 @@ const Navbar2 = () => {
         </div>
 
         <div className="hidden md:flex flex-row gap-1 text-white">
-          {user ? (
+          {session?.user ? (
             <div className="flex items-center">
-              <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center">
-                {user.name.charAt(0)}
-              </div>
-              <span className="ml-2">Hi, {user.name}</span>
-              <button onClick={handleLogout} className="ml-4 cursor-pointer hover:text-[#FF00FF]">
-                Logout
-              </button>
+              <Image
+                src={session.user.image || "/unknownperson.jpg"}
+                alt={`${session.user.name}`}
+                width={32}
+                height={32}
+                className="rounded-full"
+              />
+              <span className="ml-2">Hi, {session.user.name?.split(' ')[0] ?? 'Guest'}</span>
+                <button onClick={handleLogout} className="ml-4 cursor-pointer hover:text-[#FF00FF]">
+                <Image
+                  src="/logoutwhite.png"
+                  alt="Logout"
+                  width={24}
+                  height={24}
+                  className="rounded-full"
+                />
+                </button>
             </div>
           ) : (
-            <>
-              <Link href="/login" className="cursor-pointer hover:text-[#FF00FF]">
-                LOGIN
-              </Link>
-              /
-              <Link href="/signup" className="cursor-pointer hover:text-[#FF00FF]">
-                REGISTER
-              </Link>
-            </>
+            <Link href="/signup" className="cursor-pointer hover:text-[#FF00FF]">
+              SIGNIN
+            </Link>
           )}
         </div>
 

@@ -9,7 +9,7 @@ const nextConfig = withImages({
     unoptimized: true, // Disable image optimization for static export
     domains: ['firebasestorage.googleapis.com'],
   },
-  output: 'export', // Enable static exporting
+  // output: 'export', // Enable static exporting
 });
 
 export default nextConfig;

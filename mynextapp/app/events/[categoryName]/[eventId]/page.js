@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import { notFound } from 'next/navigation'; 
 import { useSession } from 'next-auth/react';
@@ -6,21 +7,21 @@ import Image from "next/image";
 import styles from "@/app/styles/Home.module.css";
 import Navbar2 from "@/components/main/Navbar2";
 
-export async function generateMetadata({ params }) {
-  const { categoryName, eventId } = params;
-  const category = categoriesData.categories.find(cat => cat.name === categoryName);
-  const event = category ? category.events.find(event => event.id === eventId) : null;
+// export async function generateMetadata({ params }) {
+//   const { categoryName, eventId } = params;
+//   const category = categoriesData.categories.find(cat => cat.name === categoryName);
+//   const event = category ? category.events.find(event => event.id === eventId) : null;
 
-  if (!event) {
-    return {
-      title: 'Event Not Found'
-    };
-  }
+//   if (!event) {
+//     return {
+//       title: 'Event Not Found'
+//     };
+//   }
 
-  return {
-    title: `${event.title} - Register`
-  };
-}
+//   return {
+//     title: `${event.title} - Register`
+//   };
+// }
 
 const EventPage = ({ params }) => {
   const { data: session } = useSession();
@@ -169,7 +170,7 @@ const EventPage = ({ params }) => {
                 </button>
               </a>
             ) : (
-              <p className={styles.soon}>Please login to register</p>
+              <p className={styles.soon}>Please Login to register</p>
             )}
           </div>
         </div>
@@ -180,15 +181,15 @@ const EventPage = ({ params }) => {
 
 export default EventPage;
 
-export async function generateStaticParams() {
-  const paths = [];
-  categoriesData.categories.forEach(category => {
-    category.events.forEach(event => {
-      paths.push({
-        categoryName: category.name,
-        eventId: event.id,
-      });
-    });
-  });
-  return paths;
-}
+// export async function generateStaticParams() {
+//   const paths = [];
+//   categoriesData.categories.forEach(category => {
+//     category.events.forEach(event => {
+//       paths.push({
+//         categoryName: category.name,
+//         eventId: event.id,
+//       });
+//     });
+//   });
+//   return paths;
+// }

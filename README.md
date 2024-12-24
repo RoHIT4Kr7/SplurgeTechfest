@@ -5,8 +5,7 @@
 	<em><code>❯The TechFest Website is the official online platform for showcasing the annual technology festival. This website serves as a hub for event details, schedules, speaker profiles, registration, and more. Designed with an intuitive and engaging user interface, the platform provides seamless access to all relevant information for attendees, participants, and sponsors.</code></em>
 </p>
 <p align="left">
-	<img src="https://img.shields.io/github/license/RoHIT4Kr7/SplurgeTechfest?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff&cacheSeconds=0
-" alt="license">
+	<img src="https://img.shields.io/github/license/RoHIT4Kr7/SplurgeTechfest?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff&cacheSeconds=0" alt="license">
 	<img src="https://img.shields.io/github/last-commit/RoHIT4Kr7/SplurgeTechfest?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/RoHIT4Kr7/SplurgeTechfest?style=default&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/RoHIT4Kr7/SplurgeTechfest?style=default&color=0080ff" alt="repo-language-count">

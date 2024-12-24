@@ -7,6 +7,10 @@ import Navbar2 from "@/components/main/Navbar2";
 
 const EventPageClient = ({ event, categoryName }) => {
   const { data: session } = useSession();
+  const registrationMessage =
+    categoryName === "bandprogram" && event.id === "1"
+      ? "Booking has been closed, catch us next time!"
+      : "Registration are closed, catch us next time!";
   const {
     title,
     description,
@@ -161,11 +165,15 @@ const EventPageClient = ({ event, categoryName }) => {
           </div>
           <div>
             {session ? (
-              <a href={linksingle}>
-                <button className={styles.registerButton}>
-                  <span>REGISTER</span>
-                </button>
-              </a>
+              linksingle ? (
+                <a href={linksingle}>
+                  <button className={styles.registerButton}>
+                    <span>REGISTER</span>
+                  </button>
+                </a>
+              ) : (
+                <p className={styles.soon}>{registrationMessage}</p>
+              )
             ) : (
               <p className={styles.soon}>Please Login to register</p>
             )}

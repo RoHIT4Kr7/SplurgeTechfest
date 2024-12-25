@@ -135,16 +135,31 @@ const Navbar2 = () => {
             Contact Us
           </Link>
           <div className="flex flex-row gap-5 mt-20">
-            {Socials.map((social) => (
-              <a href={social.link} target="_blank" rel="noopener noreferrer" key={social.name}>
+          {session?.user ? (
+            <div className="flex items-center">
+              <Image
+                src={session.user.image || "/unknownperson.jpg"}
+                alt={`${session.user.name}`}
+                width={32}
+                height={32}
+                className="rounded-full"
+              />
+              <span className="ml-2">Hi, {session.user.name?.split(' ')[0] ?? 'Guest'}</span>
+                <button onClick={handleLogout} className="ml-4 cursor-pointer hover:text-[#FF00FF]">
                 <Image
-                  src={social.src}
-                  alt={social.name}
-                  width={40}
-                  height={40}
+                  src="/logoutwhite.png"
+                  alt="Logout"
+                  width={24}
+                  height={24}
+                  className="rounded-full"
                 />
-              </a>
-            ))}
+                </button>
+            </div>
+          ) : (
+            <Link href="/signup" className="cursor-pointer hover:text-[#FF00FF]">
+              SIGNIN
+            </Link>
+          )}
           </div>
         </div>
       )}

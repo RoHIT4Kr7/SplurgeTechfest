@@ -1,121 +1,219 @@
-# Splurge Techfest Website
+<div align="left" style="position: relative;">
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
+<h1>SPLURGE TECHFEST</h1>
+<p align="left">
+	<em><code>❯The TechFest Website is not the official online platform for showcasing the annual technology festival. This website serves as a hub for event details, schedules, speaker profiles, registration, and more. Designed with an intuitive and engaging user interface, the platform provides seamless access to all relevant information for attendees, participants, and sponsors.</code></em>
+</p>
+<p align="left">
+	<img src="https://img.shields.io/github/license/RoHIT4Kr7/SplurgeTechfest?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff&cacheSeconds=0" alt="license">
+	<img src="https://img.shields.io/github/last-commit/RoHIT4Kr7/SplurgeTechfest?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/RoHIT4Kr7/SplurgeTechfest?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/RoHIT4Kr7/SplurgeTechfest?style=default&color=0080ff" alt="repo-language-count">
+</p>
+<p align="left"><!-- default option, no dependency badges. -->
+</p>
+<p align="left">
+	<!-- default option, no dependency badges. -->
+</p>
+</div>
+<br clear="right">
 
-Welcome to the official repository for the Splurge Techfest website, hosted by Pailan College of Management and Technology. This project is built using [Next.js](https://nextjs.org/) and various other modern web technologies.
+## 🔗 Table of Contents
 
-## Getting Started
+- [📍 Overview](#-overview)
+- [👾 Features](#-features)
+- [📁 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+  - [☑️ Dependencies](#-dependencies)
+  - [⚙️ Installation](#-installation)
+  - [🤖 Run](#-run)
+  - [🧪 Testing](#-testing)
+- [📌 Project Tasks and Challenges](#-project-tasks-and-challenges)
+- [🎗 License](#-license)
+- [🙌 Acknowledgments](#-acknowledgments)
 
-To get started with the project, follow these steps:
+---
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/splurge-techfest.git
-    cd splurge-techfest
-    ```
+## 📍 Overview
 
-2. Install the dependencies:
-    ```bash
-    npm install
-    # or
-    yarn install
-    # or
-    pnpm install
-    # or
-    bun install
-    ```
+- SPLURGE'25 TechFest is an eagerly anticipated event that brings together students from diverse colleges to showcase their technical prowess and artistic flair. This project is a web application designed to provide information about the event, manage registrations, and display event details.
 
-3. Run the development server:
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    # or
-    bun dev
-    ```
+---
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👾 Features
+- <b>Loading Page:</b> The website starts with a Encryption design loading screen where user have to unlock the prop to enter the website.
+- <b>Home Page:</b> Overview of the event with a hero section, about us, and various sections highlighting the event's features.
+-  <b>Event Listings:</b> Detailed information about various events, including dates, times, managers, and registration fees.
+-  <b>Accomodation:</b>  Information about accommodation options for participants, including booking details and policies.
+- <b>Contacts:</b> Contact information for event managers and organizers
+- <b>Authentication:</b> User authentication using NextAuth and Prisma.
+- <b>Responsive design:</b> Mobile-friendly design with responsive layouts.
 
-## Project Structure
 
-The project structure is as follows:
 
-```
-.eslintrc.json
-.gitignore
-.next/
-app/
-  aboutus/
-  accomodation/
-  ClientLayout.tsx
-  contacts/
-  data/
-  default/
-  effects/
-  events/
-  fonts/
-  globals.css
-  layout.tsx
-  not-found.tsx
-  page.tsx
-  robots.ts
-  sitemap.ts
-build-script.js
-components/
-constants/
-next-env.d.ts
-next.config.mjs
-package.json
-postcss.config.mjs
-public/
-README.md
-tailwind.config.ts
-tsconfig.json
-```
+---
 
-## Dependencies
+## 📁 Project Structure
 
-The project uses the following dependencies:
-
-- `@heroicons/react`: Icons for React
-- `@react-three/drei`: Helper components for react-three-fiber
-- `@react-three/fiber`: React renderer for three.js
-- `aos`: Animate on scroll library
-- `clsx`: Utility for constructing `className` strings conditionally
-- `framer-motion`: Motion library for React
-- `jquery`: JavaScript library for DOM manipulation
-- `next`: React framework for production
-- `next-images`: Import images in Next.js
-- `react`: JavaScript library for building user interfaces
-- `react-dom`: Entry point of the DOM-related rendering paths
-- `react-icons`: Include popular icons in your React projects easily
-- `react-intersection-observer`: React implementation of the Intersection Observer API
-
-## Building the Project
-
-To build the project, run:
-
-```bash
-npm run build
+```sh
+└── SplurgeTechfest/
+    ├── README.md
+    └── mynextapp
+        ├── .eslintrc.json
+        ├── .gitignore
+        ├── app
+        ├── build-script.js
+        ├── components
+        ├── constants
+        ├── next.config.mjs
+        ├── package-lock.json
+        ├── package.json
+        ├── postcss.config.mjs
+        ├── prisma
+        ├── public
+        ├── tailwind.config.ts
+        └── tsconfig.json
 ```
 
-This will run the Next.js build process and execute the custom build script [`build-script.js`](build-script.js) to process and rename the output files.
+---
+## 🚀 Getting Started
 
-## Learn More
+## ☑️ Dependencies
 
-To learn more about Next.js, take a look at the following resources:
+Before getting started with SplurgeTechfest, ensure your runtime environment meets the following requirements:
+- **Package Manager:** Npm
+### **Main Dependencies:** 
+- **Next.Js** - The React framework for production
+- **React**- A JavaScript library for building user interfaces.
+- **Tailwind CSS**-A utility-first CSS framework for rapid UI development.
+- **Prisma**-Next-generation ORM for Node.js and TypeScript.
+- **NextAuth.js**- Authentication for Next.js.
+- **Framer Motion**- A library for animations in React.
+- **Swiper**-Modern mobile touch slider.
+- **Three.js**-JavaScript 3D library.
+### **Other Dependencies:**
+- **@heroicons/react**
+- **@auth/prisma-adapter**
+- **@next-auth/prisma-adapter**
+- **@prisma/client**
+- **@react-three/drei**
+- **@react-three/fiber**
+- **aos**
+- **bcryptjs**
+- **clsx**
+- **jquery**
+- **react-icons**
+- **react-intersection-observer**
+- **react-simple-typewriter**
+- **tailwind-merge**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### ⚙️ Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Install SplurgeTechfest using one of the following methods:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Build from source:**
 
-## License
+1. Clone the SplurgeTechfest repository:
+```sh
+❯ git clone https://github.com/RoHIT4Kr7/SplurgeTechfest
+```
 
-This project is licensed under the MIT License.
+2. Navigate to the project directory:
+```sh
+❯ cd mynextapp
+```
+
+3. Install the project dependencies:
+
+
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm install
+```
+
+
+
+
+### 🤖 Run
+Run SplurgeTechfest using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm run dev
+```
+### 🛠Build
+Build the project using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm run build
+```
+### 🧪 Testing
+Run the test suite using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm test
+```
+
+
+---
+## 📌 Project Tasks and Challenges
+
+- [x] **`Task 1`** - Designing the UI and Implementing File-Based Routing:  
+  - **Task**: Designed the user interface and explored Next.js's file-based routing system for the first time.  
+  - **Challenges**:  
+    - Learning the fundamentals of file-based routing in Next.js.  
+    - Creating a loading screen for the first time, which required research and experimentation.  
+    - Implementing a `ClientLayout` to ensure a seamless user experience.  
+
+- [x] **`Task 2`** - Building the Event Section with Three-Level Dynamic Routing:  
+  - **Task**: Developed a complex event section with dynamic routing paths like `/events/esports/2`.  
+  - **Challenges**:  
+    - Understanding and implementing three-level dynamic routing.  
+    - Leveraging `FinalEventsList.json` to manage and create dynamic routes.  
+
+- [x] **`Task 3`** - Static Rendering for Deployment on Apache Server:  
+  - **Task**: Adapted the project to work on an Apache server, which supports only static files (HTML, CSS, JS).  
+  - **Challenges**:  
+    - Learning and using `generateStaticParams` to render all dynamic pages statically.  
+    - Setting `module.exports` for server compatibility.  
+    - Creating and integrating a custom `buildScript.js` to automate modifications during the `npm run build` process.  
+
+- [x] **`Task 4`** - Authentication with Next-Auth and Prisma:  
+  - **Task**: Implemented user authentication using Google and GitHub, with data storage managed by Prisma.  
+  - **Challenges**:  
+    - Setting up and configuring Next-Auth for multiple providers.  
+    - Learning and integrating Prisma to handle user data effectively.  
+
+- [x] **`Task 5`** - Making the Website Responsive:  
+  - **Task**: Ensured the website was responsive across all devices and screen sizes.  
+  - **Challenges**:  
+    - Testing and optimizing the layout for various resolutions and aspect ratios.  
+    - Adapting the design to maintain usability and aesthetics across devices.  
+
+- [x] **`Task 6`** - Implementing SEO Best Practices:  
+  - **Task**: Enhanced the website's search engine optimization by creating essential files like `sitemap.ts` and `robots.ts`.  
+  - **Challenges**:  
+    - Gaining knowledge of SEO principles and their practical application.  
+    - Writing and integrating SEO-related files efficiently.  
+
+
+
+---
+
+## 🎗 License
+
+This project is protected under the [MIT] License. For more details, refer to the [MIT LICENSE](https://opensource.org/license/mit) file.
+
+---
+
+## 🙌 Acknowledgments
+
+- I would like to acknowledge my Team-mates [MRIDUL MISHRA](https://github.com/mridulmishra27) and [TANISHQ KR SINGH](https://x.com/taniiishq15) who helped me in building this project.
+
+
+---
